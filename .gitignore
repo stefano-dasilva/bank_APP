@@ -1,6 +1,8 @@
 # Ignora i file generati da Node.js
 /node_modules
 
+/server/.env
+
 # Ignora i file generati da Yarn
 /yarn.lock
 
