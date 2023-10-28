@@ -1,0 +1,36 @@
+# Ignora i file generati da Node.js
+/node_modules
+
+# Ignora i file generati da Yarn
+/yarn.lock
+
+# Ignora i file generati da npm
+/client/node_modules
+/server/node_modules
+
+# Ignora i file generati dalla build
+/client/build
+
+# Ignora i file generati dalle cache
+/.cache
+
+# Ignora i file generati dalle dipendenze
+/package-lock.json
+
+# Ignora i file generati dalle variabili d'ambiente
+/.env
+
+# Ignora qualsiasi file generato da IDE o editor
+.idea/
+.vscode/
+
+# Ignora i file di log o file temporanei
+*.log
+*.tmp
+
+# Ignora i file di configurazione specifici dell'ambiente locale
+.env.local
+
+# Ignora i file generati dal sistema operativo
+.DS_Store
+Thumbs.db
