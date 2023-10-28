@@ -20,8 +20,8 @@ L'applicazione consente il logout dell'utente.<br>
 
 ### Strumenti e linguaggi utilizzati 
 
-Client : React, Javascript, Html , Tailwind CSS
-Server : Mongoose, Mongodb (DATABASE) 
+- `Client` : React, Javascript, Html , Tailwind CSS
+- `Server` : Mongoose, Mongodb (DATABASE) 
 
 
 
