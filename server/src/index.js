@@ -18,7 +18,7 @@ app.use("/account", accountRoutes);
 app.use("/transition", transitionRoutes);
 
 mongoose.connect(
-  `mongodb+srv://stefanodasilva98:${process.env.MONGO_DB_PASS}@bankapp.kw54hek.mongodb.net/bankapp?retryWrites=true&w=majority`
+  process.env.MONGO_URL
 );
 const PORT = 3001;
 
